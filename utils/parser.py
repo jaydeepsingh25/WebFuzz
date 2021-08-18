@@ -4,6 +4,7 @@ class HTMLParser():
         self.fields = {}
         self.select = []
     
+
     def parseForm(self, extractedForm):
         self.action = extractedForm.get("action")
         ## get all input fields
