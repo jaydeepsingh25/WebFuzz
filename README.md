@@ -11,3 +11,9 @@
 
 * A sample command to run WebFuzz from the command line would be: 
 	* python WebFuzz.py --url=http://testphp.vulnweb.com/login.php --method=POST --attack=SQLI --filtercode=302 --noofrequests=30
+
+SQLI sample output:
+![image](https://user-images.githubusercontent.com/51749136/170089894-49af1b9d-a39c-4dcd-99c5-8e5d61117609.png)
+
+XSS Sample output
+![image](https://user-images.githubusercontent.com/51749136/170089981-467cc005-39fb-4122-8895-edeb0232e613.png)
